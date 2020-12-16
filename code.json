@@ -1,0 +1,8 @@
+def do(i):
+    if isi(i):
+        keyboard.press(chr(int(i))
+    else:
+        try:
+            eval('keyboard.press(Key.' + i + ')')
+        except:
+            print('invalid key:'+i)
